@@ -40,3 +40,16 @@ Use 100 estimators for both classifiers, and complete the following steps for ea
  5. For the BalancedRandomForestClassifier, print the feature importance, sorted in descending order (from most to least important feature), along with the feature score.
  
 ### Summary 
+
+Evaluated supervised Machine Learning to assess credit risk. Predicting credit risk with machine learning models by using resampling techniques with logistical regression classifiers and ensemble classifiers to predict whether the load applications are low or high risk.
+
+#### Native Random Oversampling
+
+#### SMOTE Oversampling
+
+#### Undersampling
+
+#### Combination Sampling
+
+
+
