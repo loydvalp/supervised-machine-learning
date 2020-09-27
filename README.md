@@ -47,13 +47,19 @@ Evaluated supervised Machine Learning to assess credit risk. Predicting credit r
 
 Naive random oversampling algorithm Method. Started with a count of low_risk:51,366 and high_risk: 51,366 target values.  I used the resampled data to train a logistic regression model.  The balanced accuracy score was 0.65.  For the confusion_matrix table, true positive= 70, false negative= 31, false positive= 6,711, and true negative= 10,393. The precision finding for low_risk applicants is 100% unlike high_risk applicants which is 1%.   The average recall is 0.61 See table below for classification_report_imbalanced.  
 
+![](images/native_oversampling.PNG)
+
 #### SMOTE Oversampling
 
 SMOTE algorithm Method.  The count of the target values was low_risk:51,366 and high_risk: 51,366.  I used the resampled data to train a logistic regression model.  The balanced accuracy score was 0.66.  For the confusion_matrix table, true positive= 64, false negative= 37, false positive= 5,291, and true negative= 11,813.The precision finding for low_risk applicants is 100% unlike high_risk applicants which is 1%.  The average recall is 0.69. See table below for classification_report_imbalanced.  
 
+![](images/SMOTE_oversampling.PNG)
+
 #### Undersampling
 
 Using the cluster centroids algorithm method.  The count of the target values was low_risk:246 and high_risk: 246. The balanced accuracy score was 0.54.  For the confusion_matrix table, true positive= 69, false negative= 32, false positive= 10,073, and true negative= 7,031. The precision finding for low_risk applicants is 100% unlike high_risk applicants which is 1%. The average recall is 0.41. See table below for classification_report_imbalanced.  
+
+![](
 
 #### Combination Sampling
 
