@@ -67,6 +67,7 @@ Using the combination over- and under-sampling algorithm  method.  The count of 
 
 ![](images/combinationSampling.PNG)
 
+
 ### Ensemble Classifier Summary
 
 #### Balanced Random Forest Classifier
@@ -80,3 +81,13 @@ Using the Balanced Random Forest Classifier.  The balanced accuracy score was 0.
 Using the Easy Ensemble AdaBoost Classifier.  The balanced accuracy score was 0.93.  For the confusion_matrix table, true positive= 93, false negative= 8, false positive= 983, and true negative= 16,121. The precision finding for low_risk applicants is 100% unlike high_risk applicants which is 9%. The average recall is 0.94. See table below for classification_report_imbalanced.  
 
 ![](images/EasyEnsembleClassifier.PNG)
+
+### Conclusion
+
+
+The most important factor is the recall score for the model since we are trying to find the high-risk loan applicants.  The lower recall for high-risk applicants is reflected in the dropped F1 score.  In comparison of precision, all the model are predicting low risk applications perfectly.  Combination Sampling had the highest recall. Out of these 4 four models, SMOTE Oversampling a slightly higher average recall than the rest. However, predicting high risk was terrible for these model.  
+
+The Easy Ensemble Adaboost method had a better performance compared to the prior model.  The precision and recall for high-resk applicants was 9% and 92%.  The balanced accuracy score was 93%.  
+
+
+
