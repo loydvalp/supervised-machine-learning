@@ -22,6 +22,7 @@ Software: Python 3.7.6, Anaconda 4.8.4, Jupyter Notebook 6.0.3
  1. Oversample the data using the RandomOverSampler and SMOTE algorithms.
  2. Undersample the data using the cluster centroids algorithm.
  3. Use a combination approach with the SMOTEENN algorithm.
+ 
 For each of the above, you’ll:
   - Train a logistic regression classifier (from Scikit-learn) using the resampled data.
   - Calculate the balanced accuracy score using balanced_accuracy_score from sklearn.metrics.
