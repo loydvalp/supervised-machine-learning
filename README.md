@@ -59,18 +59,24 @@ SMOTE algorithm Method.  The count of the target values was low_risk:51,366 and 
 
 Using the cluster centroids algorithm method.  The count of the target values was low_risk:246 and high_risk: 246. The balanced accuracy score was 0.54.  For the confusion_matrix table, true positive= 69, false negative= 32, false positive= 10,073, and true negative= 7,031. The precision finding for low_risk applicants is 100% unlike high_risk applicants which is 1%. The average recall is 0.41. See table below for classification_report_imbalanced.  
 
-![](
+![](images/undersampling.PNG)
 
 #### Combination Sampling
 
-Using the combination over- and under-sampling algorithm  method.  The count of the target values was low_risk:62,011 and high_risk: 68,460. The balanced accuracy score was 0.64.  For the confusion_matrix table, true positive= 73, false negative= 28, false positive= 7,412, and true negative= 9,692. The precision finding for low_risk applicants is 100% unlike high_risk applicants which is 1%. The average recall is 0.90. See table below for classification_report_imbalanced.  
+Using the combination over- and under-sampling algorithm  method.  The count of the target values was low_risk:62,011 and high_risk: 68,460. The balanced accuracy score was 0.64.  For the confusion_matrix table, true positive= 73, false negative= 28, false positive= 7,412, and true negative= 9,692. The precision finding for low_risk applicants is 100% unlike high_risk applicants which is 1%. The average recall is 0.57. See table below for classification_report_imbalanced.  
+
+![](images/combinationSampling.PNG)
 
 ### Ensemble Classifier Summary
 
 #### Balanced Random Forest Classifier
 
-Using the Balanced Random Forest Classifier.  The balanced accuracy score was 0.78.  For the confusion_matrix table, true positive= 68, false negative= 33, false positive= 1,749, and true negative= 15,355. The precision finding for low_risk applicants is 100% unlike high_risk applicants which is 4%. The average recall is 0.57. See table below for classification_report_imbalanced.  
+Using the Balanced Random Forest Classifier.  The balanced accuracy score was 0.78.  For the confusion_matrix table, true positive= 68, false negative= 33, false positive= 1,749, and true negative= 15,355. The precision finding for low_risk applicants is 100% unlike high_risk applicants which is 4%. The average recall is 0.90. See table below for classification_report_imbalanced. 
+
+![](images/balancedRandom.PNG)
 
 #### Easy Ensemble AdaBoost Classifier
 
 Using the Easy Ensemble AdaBoost Classifier.  The balanced accuracy score was 0.93.  For the confusion_matrix table, true positive= 93, false negative= 8, false positive= 983, and true negative= 16,121. The precision finding for low_risk applicants is 100% unlike high_risk applicants which is 9%. The average recall is 0.94. See table below for classification_report_imbalanced.  
+
+![](images/EasyEnsembleClassifier.PNG)
